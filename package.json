@@ -1,0 +1,29 @@
+{
+  "name": "randommeme",
+  "version": "1.0.0",
+  "description": "Fetches a random meme from a list of subreddits",
+  "main": "index.js",
+  "dependencies": {
+    "@blad3mak3r/reddit-memes": "^0.2.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phiberber/random-coding-meme.git"
+  },
+  "keywords": [
+    "fetch",
+    "meme",
+    "reddit"
+  ],
+  "author": "PeixeDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phiberber/random-coding-meme/issues"
+  },
+  "homepage": "https://github.com/phiberber/random-coding-meme#readme"
+}
