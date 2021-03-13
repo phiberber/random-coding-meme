@@ -4,13 +4,12 @@ const { getRandomMeme } = require("@blad3mak3r/reddit-memes");
 
 const options = {
     reddit: ["programmingmemes", "ProgrammerHumor", "programming_memes", "codinghumor"],
-    host: "localhost",
-    port: 80
+    port: process.env.PORT || 3000
 }
 
 function startServer() {
     let server = http.createServer(processRequest);
-    server.listen(options.port, options.host, () => {
+    server.listen(options.port, () => {
         console.log(`Started the server at http://${options.host}:${options.port}`)
     })
 }
