@@ -3,7 +3,7 @@ const request = require("request");
 const { getRandomMeme } = require("@blad3mak3r/reddit-memes");
 
 const options = {
-    reddit: ["programmingmemes", "ProgrammerHumor", "programming_memes", "codinghumor"],
+    reddit: ["linuxmemes", "programmingmemes", "ProgrammerHumor", "programming_memes", "codinghumor", "codingmemes", "programminghumor", "badcode", "ProgrammingJokes", "programminghorror"],
     port: process.env.PORT || 3000
 }
 
